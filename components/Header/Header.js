@@ -20,7 +20,7 @@ const Header = () => {
   const [session] = useSession();
 
   return (
-    <div className="flex items-center sticky top-0 z-50 bf-white lg:px-5 shadow-md">
+    <div className="flex items-center sticky top-0 z-50 bf-white lg:px-5 shadow-md sm:p-1">
       <div className="flex items-center">
         <Image
           src="https://links.papareact.com/5me"
@@ -59,7 +59,7 @@ const Header = () => {
           layout="fixed"
         />
 
-        <p className="font-semibold" whitespace-nowrap>
+        <p className="hidden font-semibold whitespace-nowrap md:inline-flex">
           {session.user.name}
         </p>
         <ViewGridIcon className="icon" />
