@@ -13,7 +13,7 @@ export default function Home({ session, posts }) {
   return (
     <div className="h-screen bg-gray-100 overflow-hidden">
       <Head>
-        <title>Create Next App</title>
+        <title>Facebook Clone | Marvin</title>
         <meta name="Facebook CLone" content="Clone by Marvin Ebuenga" />
         <link rel="icon" href="/fb-logo.png" />
       </Head>
